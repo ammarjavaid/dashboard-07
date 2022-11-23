@@ -1,0 +1,19 @@
+
+.main__layout{
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+    gap: 2rem;
+    @media screen and (max-width: 768px) {
+        grid-template-columns: 1fr;
+    }
+    .layout{
+        display: flex;
+        flex-direction: column;
+        gap: 2rem;
+    }
+    .layout__1{
+        display: flex;
+        flex-direction: column;
+        gap: 5rem;
+    }
+}
